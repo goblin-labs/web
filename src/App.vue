@@ -5,7 +5,7 @@ import { RouterLink, RouterView } from 'vue-router'
 <template>
   <header class="header-wrapper">
     <nav class="nav-wrapper">
-      <RouterLink to="/">SonicSmash</RouterLink>
+      <RouterLink to="/">SuperSlime</RouterLink>
       <RouterLink to="/about">About</RouterLink>
     </nav>
   </header>
