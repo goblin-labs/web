@@ -1,0 +1,47 @@
+@font-face {
+  font-family: 'GBWide';
+  font-style: normal;
+  font-display: auto;
+  font-weight: 700;
+  src: url('src/assets/fonts/AmfibiaExpandedDemiBold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'GBWide';
+  font-style: italic;
+  font-display: auto;
+  font-weight: 700;
+  src: url('src/assets/fonts/AmfibiaExpandedDemiBoldItalic.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'GBWide';
+  font-style: normal;
+  font-display: auto;
+  font-weight: 800;
+  src: url('src/assets/fonts/AmfibiaExpandedBold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'GBWide';
+  font-style: italic;
+  font-display: auto;
+  font-weight: 800;
+  src: url('src/assets/fonts/AmfibiaExpandedBoldItalic.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'GBWide';
+  font-style: normal;
+  font-display: auto;
+  font-weight: 900;
+  src: url('src/assets/fonts/AmfibiaExpandedExtraBold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'GBWide';
+  font-style: italic;
+  font-display: auto;
+  font-weight: 900;
+  src: url('src/assets/fonts/AmfibiaExpandedExtraBoldItalic.woff2') format('woff2');
+}
