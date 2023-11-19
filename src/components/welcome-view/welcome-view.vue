@@ -21,7 +21,7 @@ export default {
     </section>
     <footer>
       <span class="footer-text">{{ copyRight }}</span>
-      <img :src="`images/logo/solana-logo.svg`" :alt="`Solana logo`" :height="10"/>
+      <img :src="`images/logo/solana-logo.svg`" :alt="`Solana logo`" :height="8"/>
     </footer>
   </main>
 </template>
@@ -32,7 +32,7 @@ export default {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100%;
+    height: 100vh;
     width: 100%;
     background-color: #fff;
   }
@@ -44,7 +44,7 @@ export default {
 
   #main-content {
     display: flex;
-    flex: 1;
+    height: 100%;
     width: 100%;
     justify-content: center;
     align-items: center;
@@ -79,6 +79,6 @@ export default {
   }
 
   .footer-text {
-    font-size: 13px;
+    font-size: 12px;
   }
 </style>
