@@ -5,7 +5,7 @@ export default {
     const appName = 'goblin'
     return {
       appName: appName,
-      copyRight: `${new Date().getFullYear()} © ${appName}`,
+      copyRight: `${new Date().getFullYear()} © ${appName} foundation`,
     };
   },
 };
@@ -14,12 +14,14 @@ export default {
 <template>
   <main>
     <header>
-      <h1 id="logo">{{appName}}</h1>
+      <h1 id="logo">{{ appName }}</h1>
     </header>
     <section id="main-content">
       A marketplace for everything. On Solana.
     </section>
-    <footer>{{copyRight}}</footer>
+    <footer>
+      <span class="copyright">{{ copyRight }}</span>
+    </footer>
   </main>
 </template>
 
@@ -36,13 +38,6 @@ export default {
   header {
     width: 100%;
     padding: 0.45em 2.5em;
-  }
-
-  footer {   
-    width: 100%;
-    padding: 0.45em 2.5em;
-    background-color: #f4f4f4;
-    border-top: 1px solid #eaeaea;
   }
 
   #main-content {
@@ -68,5 +63,16 @@ export default {
     margin: 0;
     padding: 0;
     user-select: none;
+  }
+
+  footer {
+    width: 100%;
+    padding: 0.45em 2.5em;
+    background-color: #f4f4f4;
+    border-top: 1px solid #eaeaea;
+  }
+
+  .copyright {
+    font-size: 13px;
   }
 </style>
