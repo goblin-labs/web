@@ -36,6 +36,25 @@
   --section-gap: 160px;
 }
 
+/* Typography */
+:root {
+  --font-primary: sans-serif;
+  --font-secondary: serif;
+
+  /* set base values */
+  --text-base-size: 1em;
+  --text-scale-ratio: 1.2;
+
+  /* type scale */
+  --text-xs: calc(1em / (var(--text-scale-ratio) * var(--text-scale-ratio)));
+  --text-sm: calc(1em / var(--text-scale-ratio));
+  --text-md: calc(1em * var(--text-scale-ratio));
+  --text-lg: calc(1em * var(--text-scale-ratio) * var(--text-scale-ratio));
+  --text-xl: calc(1em * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio));
+  --text-xxl: calc(1em * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio));
+  --text-xxxl: calc(1em * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio) * var(--text-scale-ratio));
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --color-background: var(--vt-c-black);
@@ -78,8 +97,10 @@ body {
     'Droid Sans',
     'Helvetica Neue',
     sans-serif;
-  font-size: 14px;
+  font-size: var(--text-base-size);
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  position: fixed;
+  overflow: hidden;
 }

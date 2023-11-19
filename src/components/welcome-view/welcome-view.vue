@@ -79,6 +79,6 @@ export default {
   }
 
   .footer-text {
-    font-size: 12px;
+    font-size: var(--text-sm);
   }
 </style>
