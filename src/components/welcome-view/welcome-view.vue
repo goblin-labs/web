@@ -17,10 +17,11 @@ export default {
       <h1 id="logo">{{ appName }}</h1>
     </header>
     <section id="main-content">
-      A marketplace for everything. On Solana.
+      A marketplace for everything.
     </section>
     <footer>
-      <span class="copyright">{{ copyRight }}</span>
+      <span class="footer-text">{{ copyRight }}</span>
+      <img :src="`images/logo/solana-logo.svg`" :alt="`Solana logo`" :height="10"/>
     </footer>
   </main>
 </template>
@@ -33,6 +34,7 @@ export default {
     align-items: center;
     height: 100vh;
     width: 100%;
+    background-color: #fff;
   }
 
   header {
@@ -66,13 +68,17 @@ export default {
   }
 
   footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
     padding: 0.45em 2.5em;
     background-color: #f4f4f4;
     border-top: 1px solid #eaeaea;
   }
 
-  .copyright {
+  .footer-text {
     font-size: 13px;
   }
 </style>
