@@ -18,7 +18,7 @@
   --vt-c-text-light-1: var(--vt-c-indigo);
   --vt-c-text-light-2: rgba(60, 60, 60, 0.66);
   --vt-c-text-dark-1: var(--vt-c-white);
-  --vt-c-text-dark-2: rgba(235, 235, 235, 0.64);
+  --vt-c-text-dark-2: #101010;
 }
 
 /* semantic color variables for this project */
@@ -59,7 +59,7 @@
 }
 
 body {
-  min-height: 100vh;
+  height: 100svh;
   width: 100%;
   color: var(--color-text);
   background: var(--color-background);
