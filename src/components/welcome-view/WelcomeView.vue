@@ -1,17 +1,68 @@
+<script lang="ts">
+export default {
+  name: 'HomeView',
+  data() {
+    const appName = 'goblin'
+    return {
+      appName: appName,
+      copyRight: `${new Date().getFullYear()} © ${appName}`,
+    };
+  },
+};
+</script>
+
 <template>
-  <div>
-    <h1>Gobblin</h1>
-  </div>
+  <main>
+    <header>
+      <h1 id="logo">{{appName}}</h1>
+    </header>
+    <section id="main-content">
+      A marketplace for everything. On Solana.
+    </section>
+    <footer>{{copyRight}}</footer>
+  </main>
 </template>
 
 <style scoped>
-  div {
-    margin-top: 36.666vh;
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
   }
+
+  header {
+    width: 100%;
+    padding: 0.45em 2.5em;
+  }
+
+  footer {   
+    width: 100%;
+    padding: 0.45em 2.5em;
+    background-color: #f4f4f4;
+    border-top: 1px solid #eaeaea;
+  }
+
+  #main-content {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   h1 {
-    color: #42b983;
-    font-size: 3em;
-    font-weight: 900;
+    color: #020202;
+    font-size: 1.15em;
+    font-weight: 700;
     font-family: GBWide;
     letter-spacing: -0.0355em;
     margin: 0;

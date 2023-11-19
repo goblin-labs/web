@@ -3,16 +3,14 @@ import WelcomeView from '../components/welcome-view/WelcomeView.vue'
 </script>
 
 <template>
-  <main class="welcome">
+  <main>
     <WelcomeView />
   </main>
 </template>
 
 
 <style scoped>
-  .welcome {
-    display: flex;
-    justify-content: center;
+  main {
     height: 100%;
     width: 100%;
   }
