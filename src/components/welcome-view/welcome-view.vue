@@ -18,8 +18,8 @@ export default {
     </header>
     <section class="flex h-full w-full justify-center mt-[20vh] px-2">
       <div class="flex flex-col text-balance text-center">
-        <h1 class="text-5xl md:text-7xl leading-none tracking-tight font-bold">The decentralized</h1>
-        <h1 class="text-5xl md:text-7xl leading-none tracking-tight font-bold">publishing platform.</h1>
+        <h1 class="text-4xl md:text-7xl leading-none tracking-tight font-bold">The decentralized</h1>
+        <h1 class="text-4xl md:text-7xl leading-none tracking-tight font-bold">publishing platform.</h1>
       </div>
     </section>
     <footer class="flex flex-row justify-between items-center w-full px-2 md:px-8 py-5 bg-[#15171a]">
