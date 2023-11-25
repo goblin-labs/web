@@ -12,73 +12,19 @@ export default {
 </script>
 
 <template>
-  <main>
-    <header>
-      <h1 id="logo">{{ appName }}</h1>
+  <main class="bg-white w-full h-[100svh] flex flex-col items-center">
+    <header class="w-full px-2 md:px-8 py-2 md:py-4">
+      <h1 class="font-logo font-bold text-md text-lg">{{ appName }}</h1>
     </header>
-    <section id="main-content">
-      A marketplace for everything.
+    <section class="flex h-full w-full justify-center mt-[20vh] px-2">
+      <div class="flex flex-col text-balance text-center">
+        <h1 class="text-5xl md:text-7xl leading-none tracking-tight font-bold">The decentralized</h1>
+        <h1 class="text-5xl md:text-7xl leading-none tracking-tight font-bold">publishing platform.</h1>
+      </div>
     </section>
-    <footer>
-      <span class="footer-text">{{ copyRight }}</span>
-      <img :src="`images/logo/solana-logo.svg`" :alt="`Solana logo`" :height="8"/>
+    <footer class="flex flex-row justify-between items-center w-full px-2 md:px-8 py-5 bg-[#15171a]">
+      <span class="font-sans text-sm text-white">{{ copyRight }}</span>
+      <img class="bg-cover h-3" :src="`images/logo/solana-logo.svg`" :alt="`Solana logo`"/>
     </footer>
   </main>
 </template>
-
-<style scoped>
-  main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100svh;
-    width: 100%;
-    background-color: #fff;
-  }
-
-  header {
-    width: 100%;
-    padding: 0.45em 2.5em;
-  }
-
-  #main-content {
-    display: flex;
-    height: 100%;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-  }
-
-  div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  h1 {
-    color: #020202;
-    font-size: 1.15em;
-    font-weight: 700;
-    font-family: GBWide;
-    letter-spacing: -0.0355em;
-    margin: 0;
-    padding: 0;
-    user-select: none;
-  }
-
-  footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    padding: 0.45em 2.5em;
-    background-color: #f4f4f4;
-    border-top: 1px solid #eaeaea;
-  }
-
-  .footer-text {
-    font-size: var(--text-sm);
-  }
-</style>
