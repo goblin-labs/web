@@ -1,49 +1,98 @@
 /* https: //web.dev/articles/font-best-practices#be-cautious-when-using-preload-to-load-fonts */
 
+/* ABC Oracle */
 @font-face {
-  font-family: 'GBWide';
+  font-family: 'ABCOracle';
+  font-style: normal;
+  font-display: auto;
+  font-weight: 100;
+  src: url('fonts/ABCOracleThin.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'ABCOracle';
+  font-style: italic;
+  font-display: auto;
+  font-weight: 100;
+  src: url('fonts/ABCOracleThinItalic.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'ABCOracle';
+  font-style: normal;
+  font-display: auto;
+  font-weight: 200;
+  src: url('fonts/ABCOracleLight.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'ABCOracle';
+  font-style: italic;
+  font-display: auto;
+  font-weight: 200;
+  src: url('fonts/ABCOracleLightItalic.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'ABCOracle';
+  font-style: normal;
+  font-display: auto;
+  font-weight: 300;
+  src: url('fonts/ABCOracleBook.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'ABCOracle';
+  font-style: italic;
+  font-display: auto;
+  font-weight: 300;
+  src: url('fonts/ABCOracleBookItalic.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'ABCOracle';
+  font-style: normal;
+  font-display: auto;
+  font-weight: 400;
+  src: url('fonts/ABCOracleRegular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'ABCOracle';
+  font-style: italic;
+  font-display: auto;
+  font-weight: 400;
+  src: url('fonts/ABCOracleRegularItalic.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'ABCOracle';
+  font-style: normal;
+  font-display: auto;
+  font-weight: 500;
+  src: url('fonts/ABCOracleMedium.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'ABCOracle';
+  font-style: italic;
+  font-display: auto;
+  font-weight: 500;
+  src: url('fonts/ABCOracleMediumItalic.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'ABCOracle';
   font-style: normal;
   font-display: auto;
   font-weight: 700;
-  src: url('fonts/AmfibiaExpandedDemiBold.woff2') format('woff2');
+  src: url('fonts/ABCOracleBold.woff2') format('woff2');
 }
 
 @font-face {
-  font-family: 'GBWide';
+  font-family: 'ABCOracle';
   font-style: italic;
   font-display: auto;
   font-weight: 700;
-  src: url('fonts/AmfibiaExpandedDemiBoldItalic.woff2') format('woff2');
-}
-
-@font-face {
-  font-family: 'GBWide';
-  font-style: normal;
-  font-display: auto;
-  font-weight: 800;
-  src: url('fonts/AmfibiaExpandedBold.woff2') format('woff2');
-}
-
-@font-face {
-  font-family: 'GBWide';
-  font-style: italic;
-  font-display: auto;
-  font-weight: 800;
-  src: url('fonts/AmfibiaExpandedBoldItalic.woff2') format('woff2');
-}
-
-@font-face {
-  font-family: 'GBWide';
-  font-style: normal;
-  font-display: auto;
-  font-weight: 900;
-  src: url('fonts/AmfibiaExpandedExtraBold.woff2') format('woff2');
-}
-
-@font-face {
-  font-family: 'GBWide';
-  font-style: italic;
-  font-display: auto;
-  font-weight: 900;
-  src: url('fonts/AmfibiaExpandedExtraBoldItalic.woff2') format('woff2');
+  src: url('fonts/ABCOracleBoldItalic.woff2') format('woff2');
 }

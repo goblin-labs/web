@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        logo: ['GBWide']
+        sans: ['ABCOracle']
       }
     }
   },
